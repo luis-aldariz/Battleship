@@ -18,5 +18,6 @@ namespace Battleship.Model
         public List<Point> HitsGiven { get; set; }
 
         public int SuccessfulShotsReceived { get; set; }
+        public bool Turn { get; set; }
     }
 }
